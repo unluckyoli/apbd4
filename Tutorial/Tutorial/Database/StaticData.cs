@@ -12,6 +12,6 @@ public class StaticData
 
     public static List<Visit> visits = new List<Visit>()
     {
-        new Visit { Id = 1, VisitDate = DateTime.Now, AnimalId = 1, Description = "First visit", Price = 50.00m },
+        new Visit { Id = 1, VisitDate = DateTime.Now, AnimalId = 1, Description = "Druga wizyta", Price = 50.00m },
     };
 }
