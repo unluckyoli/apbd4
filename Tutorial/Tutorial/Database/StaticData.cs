@@ -7,7 +7,7 @@ public class StaticData
 {
     public static List<Animal> animals = new List<Animal>()
     {
-        new Animal(),
+        new Animal{Id = 1, Category = "pies", Name = "Burek", Color = "szary", Weight = "4kg"},
     };
 
     public static List<Visit> visits = new List<Visit>()
